@@ -1,0 +1,95 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2017-12-04T14:46:43.200Z",
+	"__export_source": "insomnia.desktop.app:v5.11.0",
+	"resources": [
+		{
+			"_id": "wrk_2f49c669dde14264bdfc396749dcdafe",
+			"parentId": null,
+			"modified": 1511443041623,
+			"created": 1511443041623,
+			"name": "Reactive",
+			"description": "",
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_7c88ecd8b97e431c93292d25013f75b3",
+			"parentId": "wrk_2f49c669dde14264bdfc396749dcdafe",
+			"modified": 1511443041636,
+			"created": 1511443041636,
+			"name": "Base Environment",
+			"data": {},
+			"color": null,
+			"isPrivate": false,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_41d1a171f97541b1804723b2381c630a",
+			"parentId": "wrk_2f49c669dde14264bdfc396749dcdafe",
+			"modified": 1511443041629,
+			"created": 1511443041629,
+			"name": "Default Jar",
+			"cookies": [],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_6b4d672285dd4ca7a7aa03e148c64eb1",
+			"parentId": "wrk_2f49c669dde14264bdfc396749dcdafe",
+			"modified": 1511801742107,
+			"created": 1511443064518,
+			"url": "localhost:8080/api/users",
+			"name": "saveUser",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\" : \"Martin2444\"\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_8de6e45f118d42018e3358781e5ad47a"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1511443064518,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_6bcc4ab7f1ca4a61a2540d70effac6d8",
+			"parentId": "wrk_2f49c669dde14264bdfc396749dcdafe",
+			"modified": 1511443091162,
+			"created": 1511443070335,
+			"url": "localhost:8080/api/users",
+			"name": "getUsers",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": []
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_8de6e45f118d42018e3358781e5ad47a"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1511391971283,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		}
+	]
+}
