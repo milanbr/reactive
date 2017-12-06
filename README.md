@@ -1,3 +1,8 @@
+# Reactive
+
+Application shows usage of Spring webflux including server sent events and websocket.
+
+
 ### Starting application
 
 `spring-boot:run`
@@ -9,6 +14,9 @@
 `curl -N http://localhost:8080/api/users/stream`
 
 `curl -N http://localhost:8080/api/users/sse`
+
+#### Websocket
+`ws://localhost:8080/socket/api/users`
 
 ### Insomnia project
 
