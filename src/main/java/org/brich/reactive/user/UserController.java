@@ -31,8 +31,6 @@ public class UserController {
     @GetMapping
     public Flux<User> getAllUsers() {
         return userReactiveRepository.findAll()
-//                .filter(user -> user.getName().equals("Milan"))
-//                .map(user -> new User(user.getId(), "User: " + user.getName()))
                 .log();
     }
 
